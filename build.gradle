@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github/RyersonDiscordBotDevelopmentCommittee' version '2.0.1'
+}
+
+group 'com.rdbdc'
+version '1.0-SNAPSHOT'
+
+mainClassName = 'com.mercury'
+
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'net.dv8tion:JDA:3.5.0_331'
+    compile 'com.jagrosh:jda-utilities:2.1.4'
+}
+
+compileJava.options.encoding = 'UTF-8'
