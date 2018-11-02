@@ -13,7 +13,7 @@ public class ModBot {
         commandClientBuilder.addCommand(new HelloWorldCommand());
 
         new JDABuilder(AccountType.BOT)
-                .setToken("NDk3OTI4NzQ4MTg4OTU4NzQy.DpmT4w.64eESfpcaVF4GvDoNEtxzpKK0Ec")
+                .setToken("token")
                 .addEventListener(commandClientBuilder.build())
                 .buildAsync();
     }
